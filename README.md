@@ -65,6 +65,8 @@ The automobile company is popular among New Customers among the age groups 20-29
 
 A steep drop in customers is observed in the 30-39 age group among the New Customers
 
+![Old Age Distribution](https://github.com/Ahshamali/Sales-RFM-Analysis/assets/96016885/79fb1e63-e2eb-49bc-86a0-7bc5eece0047)
+![Age distribution](https://github.com/Ahshamali/Sales-RFM-Analysis/assets/96016885/1bc8bf1e-15f2-4b7f-8dc6-3b7a1d954488)
 
 **Bike purchases over last 3 years by Gender**
 
@@ -74,7 +76,9 @@ Approximately 51% of the bike purchases are done by Female compared to 49% of th
 
 The Female purchases are 10,000 more than that of Male purchases (numerically).
 
-New vs Old Customers Job Industry Distribution
+![Male Vs Female](https://github.com/Ahshamali/Sales-RFM-Analysis/assets/96016885/29fc5dee-5e59-474b-8ea6-283f6af9e558)
+
+**New vs Old Customers Job Industry Distribution**
 
 Most New customers are from the Manufacturing and Financial Services sector (approx 20% of the New Customers).
 
@@ -82,6 +86,7 @@ The lowest number of customers are from the Agriculture and Telecom sector appro
 
 Similar trend is observed among Old Customers as well
 
+![Industry distribution](https://github.com/Ahshamali/Sales-RFM-Analysis/assets/96016885/e9491060-7f3f-47e6-b624-d95eb85615be)
 
 **Wealth Segmentation by Age Category**
 
@@ -91,6 +96,8 @@ The next category comes from the 'High Net Worth' customers.
 
 In the age group 40-49, Affluent segment out performs the High Net Worth customers in terms of number of customers.
 
+![wealth by age group](https://github.com/Ahshamali/Sales-RFM-Analysis/assets/96016885/58206107-5553-42e5-93ce-83fb535a5ff2)
+
 
 **Cars owned by States**
 
@@ -99,6 +106,8 @@ New South Wales has the largest number of people who donot own a car.
 In Victoria the proportion is quite even.
 
 In Queensland the number of people owning a car is greater than who donot have a car.
+
+![Car owners](https://github.com/Ahshamali/Sales-RFM-Analysis/assets/96016885/3f8feaf7-c676-4f05-8db5-e85a2d6cd2f9)
 
 
 **3. RFM Analysis and Customer Segmentation**
@@ -119,6 +128,7 @@ Becoming Loyal
 Almost lost Customers
 As of the current state of the Automobile business the current distribution of customers segments is depicted below:
 
+![Customer Segment](https://github.com/Ahshamali/Sales-RFM-Analysis/assets/96016885/b479382f-badc-4f70-a34e-d4e5c925a7f0)
 
 
 **4. RFM Analysis: Scatter Plots**
@@ -126,12 +136,13 @@ Recency vs Monetary :
 
 The visualization shows that recent customers have purchased more products and generated relatively more revenue than the customers who visited a while ago.
 
+![Recency VS Monetary](https://github.com/Ahshamali/Sales-RFM-Analysis/assets/96016885/8d3aa58b-10a5-4453-bf2f-f5dcfec52c09)
 
 Frequency vs Monetary :
 
 The visualization shows that customers belonging to Platinum/ Very Loyal/ Becoming Loyal Customer Segments have a greater frequency and generate greater monetary for the business
 
-
+![Frequency vs Monetary](https://github.com/Ahshamali/Sales-RFM-Analysis/assets/96016885/63590850-a402-4dea-93dd-5dc79861c98b)
 
 
 
