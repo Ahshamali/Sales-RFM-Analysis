@@ -3,7 +3,7 @@ Project Overview
 This project aims to conduct a Customer Segmentation Analysis for an Automobile Bike Company using the RFM (Recency, Frequency, Monetary) model. The RFM analysis is a behavior-based approach that categorizes customers based on their previous purchase transactions. The ultimate goal is to identify and target specific customer segments to enhance sales revenue for the company.
 
 Key Steps in the Project
-Data Collection:
+Data Collection:/n
 
 Gathered historical customer transaction data, including information on recency, frequency, and monetary value.
 RFM Model Development:
