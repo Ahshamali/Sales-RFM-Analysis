@@ -1,20 +1,59 @@
 # sales-RFM-Analysis
-Project Overview
-This project aims to conduct a Customer Segmentation Analysis for an Automobile Bike Company using the RFM (Recency, Frequency, Monetary) model. The RFM analysis is a behavior-based approach that categorizes customers based on their previous purchase transactions. The ultimate goal is to identify and target specific customer segments to enhance sales revenue for the company.
 
-Key Steps in the Project
-Data Collection:/n
+# Sales-RFM Analysis
 
-Gathered historical customer transaction data, including information on recency, frequency, and monetary value.
-RFM Model Development:
+The purpose of this project is to conduct a Customer Segmentation Analysis for an Automobile bike Company. Customer segmentation is performed by developing a RFM Model. RFM (Recency, Frequency, Monetary) analysis is a behavior-based approach grouping customers into segments. It groups the customers on the basis of their previous purchase transactions. In this analysis the customer segment was divided into 11 groups. The analysis will help in determining which customers segments should be targeted in order to enhance sales revenue for the company. A Sales Dashboard for Customer Segmentation is developed using Power BI and the data quality assessment and analysis is done using Python.
 
-Utilized the RFM model to analyze customer behavior and segment them into meaningful groups.
-Divided the customer segments into 11 distinct groups based on their RFM scores.
-Tableau Dashboard Development:
 
-Created a Sales Dashboard using Tableau to visualize the customer segmentation and related metrics.
-The dashboard provides an intuitive interface for understanding customer segments and their impact on sales.
-Python Data Quality Assessment:
+## Documentation
+
+[Analysis Approach](https://linktodocumentation)
+
+The first step towards generating useful insights from the data was the data prepartion, quality assessment and data cleaning step. After the cleaning process exploratory data analysis on the dataset and identification customer purchasing behaviours to generate insights can be performed.
+
+In the data cleaning step the data quality of the following datasets were first assesed. After a data quality assessment the following data quality issues was observed and the necessary process to mitigate the issue was followed :
+
+CustomerDemographics.xlsx :
+1 Irrelevent column was present and such columns were dropped from the dataset.
+
+There were 5 columns were Missing values were present. For such columns based on the volumne of the missing values either the records were dropped or appropiate values were imputed at places of missing values
+
+For gender column there was no standardisation of data. Based on the values available the column data was standardised to remove data inconsistency.
+
+The Date of Birth column was transformed to create a new feature column 'Age' and 'Age Group' to check for discripency of age distribution. An outlier was observed and the record was removed.
+
+Checked whether there are duplicate records present in the dataset. In this dataset there were no duplicate records.
+
+NewCustomerList.xlsx :
+5 Irrelevent column was present and such columns were dropped from the dataset.
+
+There were 4 columns were Missing values were present. For such columns based on the volumne of the missing values either the records were dropped or appropiate values were imputed at places of missing values
+
+The Date of Birth column was transformed to create a new feature column 'Age' and 'Age Group' to check for discripency of age distribution.
+
+There was no data inconsistency.
+
+Checked whether there are duplicate records present in the dataset. In this dataset there were no duplicate records.
+
+Transaction_data.xlsx :
+The product_first_sold_date column is not in datetime format. The data type of this column was changed from int64 to datetime format.
+
+There were 7 columns were Missing values were present. For such columns based on the volumne of the missing values either the records were dropped or appropiate values were imputed at places of missing values
+
+A new feature column 'Profit' was created which is basically the difference between list price and standard price.
+
+There was no data inconsistency.
+
+Checked whether there are duplicate records present in the dataset. In this dataset there were no duplicate records.
+
+CustomerAddress.xlsx :
+For states column there was no standardisation of data. Based on the values available the column data was standardised to remove data inconsistency.
+
+There were certain customer IDs from Customer Dempgraphics table which were getting dropped in the Address table.
+
+
+
+
 
 Conducted data quality assessment and analysis using Python.
 Ensured that the data used for the RFM analysis is accurate, complete, and free of errors.
