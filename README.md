@@ -1,2 +1,4 @@
 # sales-RFM-Analysis
 The purpose of this project is to conduct a Customer Segmentation Analysis for an Automobile bike Company. Customer segmentation is performed by developing a RFM Model. RFM (Recency, Frequency, Monetary) analysis is a behavior-based approach grouping customers into segments. It groups the customers on the basis of their previous purchase transactions. In this analysis the customer segment was divided into 11 groups. The analysis will help in determining which customers segments should be targeted in order to enhance sales revenue for the company. A Sales Dashboard for Customer Segmentation is developed using PowerBI and the data quality assessment and analysis is done using Python.
+
+![Age distribution](https://github.com/Ahshamali/sales-RFM-Analysis/assets/96016885/3a3968af-a700-4a93-96e3-16c048c402d1)
